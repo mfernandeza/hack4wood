@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<title>Hack4wood</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://npmcdn.com/leaflet@1.2.0/dist/leaflet.js"></script>
+<script src="https://npmcdn.com/geotiff@0.3.6/dist/geotiff.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.3.0/chroma.min.js"></script>
+<script src="https://ihcantabria.github.io/Leaflet.CanvasLayer.Field/dist/leaflet.canvaslayer.field.js"></script>
+
+<body>
+
+    <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:30%; display:block">
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="w3-dropdown-content w3-bar-block">
+                <a href="#" class="w3-bar-item w3-button">Link</a>
+                <a href="#" class="w3-bar-item w3-button">Link</a>
+            </div>
+        </div>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+
+    <div style="margin-left:30%">
+
+        <div class="w3-container">
+            <div id="map"></div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
